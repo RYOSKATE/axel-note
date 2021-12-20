@@ -1,15 +1,17 @@
 {
   "private": true,
   "main": "main/index.js",
+  "version": "0.0.0",
   "productName": "ElectronTypescriptNext",
+  "name": "axel-note",
   "scripts": {
     "clean": "rimraf dist main renderer/out renderer/.next",
-    "dev": "npm run build-electron && electron .",
+    "dev": "yarn run build-electron && electron .",
     "build-renderer": "next build renderer && next export renderer",
     "build-electron": "tsc -p electron-src",
-    "build": "npm run build-renderer && npm run build-electron",
-    "pack-app": "npm run build && electron-builder --dir",
-    "dist": "npm run build && electron-builder",
+    "build": "yarn run build-renderer && yarn run build-electron",
+    "pack-app": "yarn run build && electron-builder --dir",
+    "dist": "yarn run build && electron-builder",
     "type-check": "tsc"
   },
   "dependencies": {

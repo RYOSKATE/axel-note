@@ -2,7 +2,7 @@
   "private": true,
   "main": "main/index.js",
   "version": "0.0.0",
-  "productName": "ElectronTypescriptNext",
+  "productName": "AxelNote",
   "name": "axel-note",
   "scripts": {
     "clean": "rimraf dist main renderer/out renderer/.next",

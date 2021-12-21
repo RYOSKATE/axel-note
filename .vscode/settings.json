@@ -1,0 +1,39 @@
+{
+  "files.exclude": {
+    ".next": false,
+    "node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "angelhalo",
+    "azathoth",
+    "balor",
+    "blackdog",
+    "bramstoker",
+    "builddeploy",
+    "closepullrequest",
+    "combinational",
+    "descript",
+    "descriptlois",
+    "easyeffect",
+    "fontawesome",
+    "fortawesome",
+    "herf",
+    "Kaku",
+    "navbars",
+    "neumann",
+    "nextjs",
+    "nprogress",
+    "ouroboros",
+    "pako",
+    "pullreminders",
+    "purebreed",
+    "renegadebeing",
+    "rulebook",
+    "salamandra"
+  ]
+}
